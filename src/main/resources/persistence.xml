@@ -10,5 +10,11 @@
 		<class>com.chaminda.hibernate.mapping.domain.Subject</class>
 		<class>com.chaminda.hibernate.mapping.domain.University</class>
 		<class>com.chaminda.hibernate.mapping.domain.Department</class>
+		<class>com.chaminda.hibernate.inheritance.singletable.Member</class>
+		<class>com.chaminda.hibernate.inheritance.singletable.Visitor</class>
+		<class>com.chaminda.hibernate.inheritance.jointtable.PermanentEmployee</class>
+		<class>com.chaminda.hibernate.inheritance.jointtable.TempEmployee</class>
+		<class>com.chaminda.hibernate.Inheritance.tableforclass.CommercialVehicle</class>
+		<class>com.chaminda.hibernate.Inheritance.tableforclass.DomasticVehicle</class>
 	</persistence-unit>
 </persistence>

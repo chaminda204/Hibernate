@@ -6,20 +6,16 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import com.chaminda.hibernate.common.AbstractTest;
 import com.chaminda.hibernate.mapping.domain.Address;
 import com.chaminda.hibernate.mapping.domain.Department;
 import com.chaminda.hibernate.mapping.domain.Student;
 import com.chaminda.hibernate.mapping.domain.Subject;
 import com.chaminda.hibernate.mapping.domain.University;
 
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = { "classpath:springBeans/applicationContext.xml" })
-public class StudentServiceTest {
+public class StudentServiceTest extends AbstractTest {
 
 	@Autowired
 	StudentService<Student> studentService;
