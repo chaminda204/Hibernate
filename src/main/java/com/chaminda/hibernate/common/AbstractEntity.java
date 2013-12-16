@@ -1,4 +1,4 @@
-package com.chaminda.hibernate.mapping.domain;
+package com.chaminda.hibernate.common;
 
 import java.io.Serializable;
 import java.sql.Timestamp;

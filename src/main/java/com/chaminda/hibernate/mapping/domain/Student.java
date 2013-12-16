@@ -19,6 +19,9 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+import com.chaminda.hibernate.common.AbstractEntity;
+import com.chaminda.hibernate.mapping.domain.Address;
+
 @Entity
 @Table(name = "STUDENT")
 public class Student extends AbstractEntity {

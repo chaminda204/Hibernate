@@ -6,6 +6,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import com.chaminda.hibernate.common.AbstractEntity;
+
 @Entity
 public class University extends AbstractEntity{
 
